@@ -20,14 +20,22 @@ h1, h2 {
     text-transform: capitalize;
 }
 
-/* Logo home */
+/* Home page only start */
 
-#logo-home {
+#logo-div {
     color: white;
     text-align: center;
     font-size: 300%;
 }
-/* Home page only */
+
+#home-image {
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.2;
+    background: url("../images/background-photo.jpg") no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
 
 #background-black {
     background-color: black;
@@ -35,18 +43,20 @@ h1, h2 {
     height: 100vh;
 }
 
+/* Home page ends*/
+
 /* Navigation bar */
 
 #menu {
     font-size: 120%;
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 5%;
 }
 
 #menu a {
     text-decoration: none;
     color: white;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 #menu li {
@@ -54,14 +64,23 @@ h1, h2 {
 }
 
 
-/* Large image front page*/
+/* Gallery images*/
 
-#home-image {
-    height: fit-content;
-    width: fit-content;
 
-    background: url("../images/white-image.jpg")
+
+/* Footer with Social media*/
+
+footer {
+    height: 100px;
+    background-color: black;
 }
 
+.social-media {
+    text-align: center;
+    font-size: 200%;
+    text-decoration: white;
+}
 
-/* Gallery images*/
+.social-media li {
+    display: inline;
+}
