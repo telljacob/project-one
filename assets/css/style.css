@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
 
-/* Remove defaults */
+/* Remove defaults and set new styling */
 * {
     margin: 0;
     padding: 0;
@@ -10,44 +10,58 @@
 
 body {
     font-family: Lato-light, sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: #3a3a3a;
+}
+
+h1, h2 {
+    font-family: Lato-light, sans-serif;
+    letter-spacing: 5px;
+    text-transform: capitalize;
 }
 
 /* Logo home */
 
-#logo-agnes {
+#logo-home {
     color: white;
     text-align: center;
     font-size: 300%;
 }
-
-#logo-strand {
-    color: #cacaca;
-    text-align: center;
-    font-size: 300%;
-}
-
-/* Logo nav bar */
-
-
-
-/* Navigation bar */
+/* Home page only */
 
 #background-black {
     background-color: black;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Navigation bar */
+
+#menu {
+    font-size: 120%;
+    text-align: center;
+    padding-top: 5vh;
 }
 
 #menu a {
-    text-align: center;
     text-decoration: none;
     color: white;
+    padding-left: 5px;
 }
 
-#menu a {
-    text-decoration: none;
-    float: left;
+#menu li {
+    display: inline;
 }
 
+
+/* Large image front page*/
+
+#home-image {
+    height: fit-content;
+    width: fit-content;
+
+    background: url("../images/white-image.jpg")
+}
+
+
+/* Gallery images*/
