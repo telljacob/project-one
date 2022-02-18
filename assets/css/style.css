@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+
+/* Remove defaults */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato-light, sans-serif;
+    font-weight: 200;
+    color: #3a3a3a;
+}
+
+/* Logo home */
+
+#logo-agnes {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+}
+
+#logo-strand {
+    color: #cacaca;
+    text-align: center;
+    font-size: 300%;
+}
+
+/* Logo nav bar */
+
+
+
+/* Navigation bar */
+
+#background-black {
+    background-color: black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#menu a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#menu a {
+    text-decoration: none;
+    float: left;
+}
+
