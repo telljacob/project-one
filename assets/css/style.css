@@ -47,20 +47,25 @@ h1, h2 {
 
 /* Navigation bar */
 
-#menu {
+.menu {
     font-size: 120%;
     text-align: center;
     padding-top: 5%;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: white;
-    padding-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-#menu li {
+.menu li {
     display: inline;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid white;
 }
 
 
