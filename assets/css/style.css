@@ -16,19 +16,15 @@ body {
 
 h1, h2 {
     font-family: Lato-light, sans-serif;
+    color: #3a3a3a;
     letter-spacing: 5px;
     text-transform: capitalize;
+    text-align: center;
+    margin: 5%;
+    border-bottom: 1px solid;
 }
 
 /* Home page only start */
-
-#logo-div {
-    width: 20vw;
-    height: 20vh;
-    color: white;
-    text-align: center;
-    font-size: 300%;
-}
 
 #home-image {
     height: 100vh;
@@ -51,12 +47,13 @@ h1, h2 {
 /* Navigation bar and header */
 
 .menu {
-    background-color: purple;
+    background-color: black;
     height: 100px;
     width: 100vw;
     font-size: 200%;
     text-align: center;
     position: relative;
+    letter-spacing: 2px;
 }
 
 .menu a {
@@ -64,37 +61,37 @@ h1, h2 {
     color: white;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: aqua;
+    border-right: white solid 1px;
 }
 
 .menu li {
     display: inline;
-    background-color: bisque;
     line-height: 100px;
 }
 
 .menu a:hover {
-    border-bottom: 2px solid white;
-    border-bottom-style: thin;
+    border-bottom: 1px solid white;
 }
 
 .current-menu {
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 
 /* Gallery images*/
 
-.columns {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 5px;
-    float: left;
+#photo-gallery {
+    clear:both;
+    line-height: 5px;
+    column-count: 3;
+    column-gap: 5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.rows {
-    flex: 20%;
-    max-width: 20%;
-    clear: both;
+#photo-gallery img {
+    width: 100%;
+    padding-bottom: 5px;
 }
 
 /* Footer with Social media*/
@@ -104,12 +101,12 @@ footer {
     width: 100vw;
     background-color: black;
     bottom: 0;
-    position: absolute;
+    position: fixed;
 }
 
 .social-media {
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 .social-media li {
