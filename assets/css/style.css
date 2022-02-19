@@ -36,7 +36,7 @@ h1, h2 {
     opacity: 0.2;
     background: url("../images/background-photo.jpg") no-repeat center center;
     background-size: cover;
-    overflow: hidden;
+    z-index: 2;
 }
 
 #background-black {
@@ -47,12 +47,17 @@ h1, h2 {
 
 /* Home page ends*/
 
-/* Navigation bar */
+
+/* Navigation bar and header */
 
 .menu {
+    background-color: black;
+    height: 100px;
+    width: 100vw;
     font-size: 120%;
     text-align: center;
-    padding-top: 5%;
+    display: flexbox;
+    margin-top: 0%;
 }
 
 .menu a {
@@ -71,6 +76,9 @@ h1, h2 {
     border-bottom-style: thin;
 }
 
+.current-menu {
+    border-bottom: 2px solid white;
+}
 
 /* Gallery images*/
 
@@ -80,7 +88,10 @@ h1, h2 {
 
 footer {
     height: 100px;
+    width: 100vw;
     background-color: black;
+    bottom: 0;
+    position: absolute;
 }
 
 .social-media {
