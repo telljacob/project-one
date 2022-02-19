@@ -59,9 +59,9 @@ h1, h2 {
 .menu a {
     text-decoration: none;
     color: white;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
     border-right: white solid 1px;
+    text-align: center;
 }
 
 .menu li {
@@ -93,6 +93,35 @@ h1, h2 {
     width: 100%;
     padding-bottom: 5px;
 }
+
+/* "About me"-exclusive styling */
+
+#about-me-section {
+    height: 600px;
+}
+
+#about-me-text {
+    width: 50%;
+    float: right;
+    background-color: aqua;
+}
+
+#about-me-text-div {
+    float: left;
+    max-width: 400px;
+    padding-left: 10px;
+}
+
+#about-me-text p {
+    margin-bottom: 16px;
+}
+
+#about-me-image {
+    width: 50%;
+    float: left;
+    background-color: blue;
+}
+
 
 /* Footer with Social media*/
 
