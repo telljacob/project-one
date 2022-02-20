@@ -46,6 +46,11 @@ h1, h2 {
 
 /* Navigation bar and header */
 
+#strand-logo {
+    color: white;
+    font-size: x-large;
+}
+
 .menu {
     background-color: black;
     height: 100px;
@@ -103,7 +108,6 @@ h1, h2 {
 #about-me-text {
     width: 50%;
     float: right;
-    background-color: aqua;
 }
 
 #about-me-text-div {
@@ -119,9 +123,14 @@ h1, h2 {
 #about-me-image {
     width: 50%;
     float: left;
-    background-color: blue;
 }
 
+#about-me-image-div {
+    float: right;
+    width: 300px;
+    height: 500px;
+    padding-right: 10px;
+}
 
 /* Footer with Social media*/
 
