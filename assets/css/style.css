@@ -28,11 +28,10 @@ h1, h2 {
 
 #home-image {
     height: 100vh;
-    width: 100vw;
-    opacity: 0.2;
-    background: url("../images/background-photo.jpg") no-repeat center center;
+    width: 100%;
+    background: url("../images/ida-two.jpg") no-repeat center center;
     background-size: cover;
-    z-index: 2;
+    overflow-x: hidden;
 }
 
 #background-black {
@@ -46,27 +45,27 @@ h1, h2 {
 
 /* Navigation bar and header */
 
-#strand-logo {
-    color: white;
-    font-size: x-large;
-}
-
 .menu {
     background-color: black;
-    height: 100px;
-    width: 100vw;
+    height: 10%;
+    width: 100%;
     font-size: 200%;
     text-align: center;
-    position: relative;
+    position: fixed;
     letter-spacing: 2px;
+    top: 0;
+    opacity: 0.8;
 }
 
 .menu a {
     text-decoration: none;
     color: white;
-    padding: 5px;
+    margin-right: 10px;
+    padding: 20px;
     border-right: white solid 1px;
-    text-align: center;
+    text-align: center center;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
 
 .menu li {
@@ -225,7 +224,6 @@ h1, h2 {
     padding-left: 10px;
 }
 
-
 /* Services only ends */
 /* Footer with Social media*/
 
@@ -234,12 +232,12 @@ footer {
     width: 100vw;
     background-color: black;
     bottom: 0;
-    position: fixed;
 }
 
 .social-media {
     text-align: center;
     font-size: 250%;
+    opacity: 1;
 }
 
 .social-media li {
