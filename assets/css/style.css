@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    overflow-x: hidden;
 }
 
 body {
@@ -21,27 +22,9 @@ h1, h2 {
     text-transform: capitalize;
     text-align: center;
     margin: 5%;
+    margin-top: 5em;
     border-bottom: 1px solid;
 }
-
-/* Home page only start */
-
-#home-image {
-    height: 100vh;
-    width: 100%;
-    background: url("../images/ida-two.jpg") no-repeat center center;
-    background-size: cover;
-    overflow-x: hidden;
-}
-
-#background-black {
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-}
-
-/* Home page ends*/
-
 
 /* Navigation bar and header */
 
@@ -49,12 +32,13 @@ h1, h2 {
     background-color: black;
     height: 10%;
     width: 100%;
-    font-size: 200%;
+    font-size: 180%;
     text-align: center;
     position: fixed;
     letter-spacing: 2px;
     top: 0;
     opacity: 0.8;
+    overflow-y: hidden;
 }
 
 .menu a {
@@ -64,13 +48,13 @@ h1, h2 {
     padding: 20px;
     border-right: white solid 1px;
     text-align: center center;
-    margin-top: 50%;
-    margin-bottom: 50%;
 }
 
 .menu li {
     display: inline;
     line-height: 100px;
+    margin-top: 50%;
+    margin-bottom: 50%;
 }
 
 .menu a:hover {
@@ -81,29 +65,36 @@ h1, h2 {
     border-bottom: 1px solid white;
 }
 
-/* Gallery images*/
-
-#photo-gallery {
-    clear:both;
-    line-height: 5px;
-    column-count: 3;
-    column-gap: 5px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+.item {
+    border-bottom: 1px solid white;
 }
 
-#photo-gallery img {
+.item:hover {
+    border-bottom: 1px solid white;
+}
+
+/* Home page only start */
+
+#home-image {
+    height: 100vh;
     width: 100%;
-    padding-bottom: 5px;
+    background: url("../images/ida-two.jpg") no-repeat center center;
+    background-size: cover;
 }
+
+#frontpage-content-sizing {
+    height: 600px;
+    margin-top: 5%;
+}
+
+/* Home page only ends*/
 
 /* "About me"-exclusive styling */
 
 #section-sizing {
     height: 600px;
     width: 100%;
-    padding-bottom: 5%;
+    margin-top: 5%;
 }
 
 #about-me-text {
@@ -165,10 +156,6 @@ h1, h2 {
 /* Contact only ends */
 /* Services only starts */
 
-#services-section {
-    height: 600px;
-}
-
 #services-text {
     width: 50%;
     float: right;
@@ -223,15 +210,32 @@ h1, h2 {
     height: 500px;
     padding-left: 10px;
 }
-
 /* Services only ends */
+
+/* Gallery images*/
+
+#photo-gallery {
+    clear:both;
+    line-height: 5px;
+    column-count: 3;
+    column-gap: 5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#photo-gallery img {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
 /* Footer with Social media*/
 
 footer {
     height: 100px;
     width: 100vw;
     background-color: black;
-    bottom: 0;
+    bottom: 0px;
 }
 
 .social-media {
