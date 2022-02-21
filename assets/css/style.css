@@ -65,12 +65,8 @@ h1, h2 {
     border-bottom: 1px solid white;
 }
 
-.item {
-    border-bottom: 1px solid white;
-}
-
-.item:hover {
-    border-bottom: 1px solid white;
+.no-border {
+    border-right: none;
 }
 
 /* Home page only start */
@@ -205,7 +201,6 @@ h1, h2 {
 
 #services-image-div-right {
     float: left;
-    width: 300px;
     height: 500px;
     padding-left: 10px;
 }
