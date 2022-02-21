@@ -39,6 +39,7 @@ h1, h2 {
     top: 0;
     opacity: 0.8;
     overflow-y: hidden;
+    z-index: 1;
 }
 
 .menu a {
@@ -62,7 +63,7 @@ h1, h2 {
 }
 
 .current-menu {
-    text-decoration: underline 1px;
+    text-decoration: underline 1px !important;
     text-underline-offset: 10px;
 }
 
@@ -77,11 +78,26 @@ h1, h2 {
     width: 100%;
     background: url("../images/ida-two.jpg") no-repeat center center;
     background-size: cover;
+    overflow-y: hidden;
+
+    animation-name: home-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    z-index: 1;
 }
 
 #frontpage-content-sizing {
     height: 600px;
     margin-top: 5%;
+}
+
+@keyframes home-image-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
 }
 
 /* Home page only ends*/
@@ -91,7 +107,7 @@ h1, h2 {
 #section-sizing {
     height: 600px;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 #about-me-text {
@@ -116,7 +132,7 @@ h1, h2 {
 
 #about-me-image-div {
     float: right;
-    height: 450px;
+    height: 500px;
     padding-right: 10px;
 }
 
