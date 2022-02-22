@@ -84,6 +84,7 @@ header {
     width: 100%;
     background: url("../images/ida-two.jpg") no-repeat center center;
     background-size: cover;
+    overflow: hidden;
 
     animation-name: home-image-zoom;
     animation-duration: 5s;
@@ -94,7 +95,7 @@ header {
 #frontpage-footer {
     position: fixed;
     color: black;
-    opacity: 0.8;
+    opacity: 0.8 !important;
 }
 
 @keyframes home-image-zoom {
