@@ -21,7 +21,6 @@ h1, h2 {
     letter-spacing: 5px;
     text-transform: capitalize;
     text-align: center;
-    margin: 5%;
     margin-top: 5em;
     border-bottom: 1px solid;
 }
@@ -53,8 +52,6 @@ h1, h2 {
 .menu li {
     display: inline;
     line-height: 100px;
-    margin-top: 50%;
-    margin-bottom: 50%;
 }
 
 .menu a:hover {
@@ -247,9 +244,9 @@ h1, h2 {
 
 footer {
     height: 100px;
-    width: 100vw;
+    width: 100%;
     background-color: black;
-    bottom: 0px;
+    bottom: 0;
 }
 
 .social-media {
