@@ -46,6 +46,10 @@ header {
     z-index: 1;
 }
 
+.menu-no-opacity {
+    opacity: 1 !important;
+}
+
 .menu a {
     text-decoration: none;
     color: white;
