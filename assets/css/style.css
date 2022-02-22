@@ -99,6 +99,15 @@ header {
     animation-fill-mode: forwards;
 }
 
+@keyframes home-image-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
+}
+
 #logo-base {
     height: 450px;
     width: 33%;
@@ -142,15 +151,6 @@ header {
     position: fixed;
     color: black;
     opacity: 0.8 !important;
-}
-
-@keyframes home-image-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.05);
-    }
 }
 
 /* Home page only ends*/
@@ -217,6 +217,23 @@ header {
     padding-right: 10px;
 }
 
+#social-media-dark {
+    font-size: 300%;
+    opacity: 1;
+}
+
+#social-media-dark li {
+    display: inline;
+}
+
+#social-media-dark a {
+    color: black;
+    line-height: 100px;
+}
+
+#social-media-dark a:hover {
+    color: #9e9e9e;
+}
 /* Contact only ends */
 /* Services only starts */
 
