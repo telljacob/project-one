@@ -40,7 +40,7 @@ header {
 
 .menu {
     background-color: black;
-    font-size: 180%;
+    font-size: 200%;
     text-align: center;
     letter-spacing: 2px;
     opacity: 0.8;
@@ -363,6 +363,10 @@ footer {
         padding-top: 5%;
     }
 
+    .menu {
+        font-size: 150%;
+    }
+
     #logo-base {
         width: 66%;
         left: 17%;
@@ -375,7 +379,7 @@ footer {
     }
 
     .menu {
-        font-size: 150%;
+        font-size: 120%;
     }
 
     .menu a {
@@ -497,7 +501,7 @@ footer {
     }
 
     .menu {
-        font-size: 91%;
+        font-size: 90%;
     }
 
     .menu a {
@@ -539,7 +543,11 @@ footer {
 
 @media screen and (max-width: 450px) {  
     header {
-        height: 7%;
+        height: 10%;
+    }
+
+    .menu {
+        font-size: 70%;
     }
 
     h1 {
