@@ -374,6 +374,7 @@ footer {
     #logo-base {
         width: 66%;
         left: 17%;
+        height: 500px;
     }
 
     #services-text {
@@ -381,7 +382,7 @@ footer {
         text-align: left;
     }
     
-    #services-text-div {
+    #services-text-div, #services-text-div-left {
         margin: 0 auto;
         float: none;
         padding-left: 10px;
@@ -390,13 +391,6 @@ footer {
 
     #services-text-left {
         width: 100%;
-    }
-    
-    #services-text-div-left {
-        margin: 0 auto;
-        float: none;
-        padding-left: 10px;
-        padding-right: 5px;
     }
     
     #services-image-right {
@@ -416,17 +410,17 @@ footer {
         float: none;
     }
     
-    #services-image-div {
+    #services-image-div, #about-me-image-div {
         float: none;
     }
 
-    #contact-me-text {
+    #contact-me-text, #about-me-text {
         text-align: center;
         width: 100%;
         float: none;
     }
     
-    #contact-me-text-div {
+    #contact-me-text-div, #about-me-text-div {
         margin: 0 auto;
         float: none;
         width: 100%;
@@ -434,7 +428,7 @@ footer {
         padding-right: 5px;
     }
     
-    #contact-me-image {
+    #contact-me-image, #about-me-image {
         margin: 0 auto;
         text-align: center;
         width: 100%;
@@ -443,30 +437,6 @@ footer {
     #contact-me-image-div {
         float: none;
         width: 100%;
-    }
-
-    #about-me-text {
-        text-align: center;
-        float: none;
-        width: 100%;
-    }
-
-    #about-me-text-div {
-        margin: 0 auto;
-        float: none;
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 5px;
-    }
-
-    #about-me-image {
-        margin: 0 auto;
-        text-align: center;
-        width: 100%;
-    }
-
-    #about-me-image-div {
-        float: none;
     }
 }
 
@@ -486,6 +456,11 @@ footer {
     #logo-base {
         width: 100%;
         left: 0px;
+        height: 390px;
+    }
+
+    .logo-base-text {
+        font-size: 400%;
     }
 
     #contact-me-image-div, #about-me-image-div, #services-image-div-right, #services-image-div {
@@ -500,7 +475,6 @@ footer {
 @media screen and (max-width: 581px) {
     h1 {
         padding-top: 15%;
-        font-size: 120%;
     }
 
     .menu {
@@ -510,36 +484,20 @@ footer {
     .menu a {
         padding: 0px;
     }
-
-    #logo-base {
-        height: 280px;
-    }
     
+    .logo-base {
+        height: 300px;
+    }
+
     #logo-base-text {
-        font-size: 350%;
+        font-size: 500%;
         letter-spacing: 5px;
     
         text-align: center;
         padding-top: 10px;
     }
-    
-    #logo-base-paragraph {
-        font-size: 150%;
-        letter-spacing: 5px;
-    
-        text-align: center;
-        padding-top: 15px;
-    }
 
-    #photo-column-left {
-        width: 100%;
-    }
-    
-    #photo-column-right {
-        width: 100%;
-    }
-    
-    #photo-column-center {
+    #photo-column-left, #photo-column-right, #photo-column-center {
         width: 100%;
     }
 }
@@ -559,7 +517,10 @@ footer {
 
     #logo-base {
         height: 300px;
-        left: 0px;
+    }
+
+    #logo-base h2 {
+        font-size: 250%;
     }
 
     #logo-base-text {
