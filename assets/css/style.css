@@ -435,6 +435,30 @@ footer {
         float: none;
     }
 
+    #contact-me-text {
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+    
+    #contact-me-text-div {
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+    
+    #contact-me-image {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #contact-me-image-div {
+        float: none;
+    }
+
     #photo-gallery {
         width: 100%;
     }
