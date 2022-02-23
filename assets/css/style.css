@@ -103,6 +103,7 @@ header {
     background-size: cover;
     position: absolute;
 
+    /* I did not create this code on my own. I had forgotten the syntax of how to do animations and got help from the Love Runners project */
     animation-name: home-image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -469,6 +470,8 @@ footer {
 
     #contact-me-image-div, #about-me-image-div, #services-image-div-right, #services-image-div {
         width: 100%;
+        padding-left: 0%;
+        padding-bottom: 5%;
     }
 
     #photo-gallery {
