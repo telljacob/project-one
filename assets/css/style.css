@@ -366,7 +366,7 @@ footer {
     }
 
     .section-sizing {
-        height: 1000px;
+        height: fit-content;
     }
 
     .menu {
@@ -444,12 +444,13 @@ footer {
     
     #contact-me-image-div {
         float: none;
+        width: 100%;
     }
 
     #about-me-text {
         text-align: center;
-        width: 100%;
         float: none;
+        width: 100%;
     }
 
     #about-me-text-div {
@@ -487,6 +488,10 @@ footer {
     #logo-base {
         width: 100%;
         left: 0px;
+    }
+
+    #contact-me-image-div, #about-me-image-div, #services-image-div-right, #services-image-div {
+        width: 100%;
     }
 
     #photo-gallery {
