@@ -18,7 +18,6 @@ In the navigation bar we can use the link to: Home, Gallery, Services, About and
 **All Other Pages**
 ![Nav Bar](https://github.com/telljacob/project-one/blob/main/assets/images/header.png?raw=true)
 
-
 ### Frontpage Background Image with animation
 The Frontpage image took a long time to decide on. The photographer isn't a nature photographer. A dramatic mountain range was my first thought but it would very poorly represent what the photographer does. A "fashion" magazine cover background for example would bring too much emphasis on that particular image, it had to be more neutral. This became the middle ground solution. It's a neutral and very calming image which is originally in black and white aswell, I didn't need to alter the image to create what I wanted the background to.
 
@@ -53,9 +52,13 @@ HTML - W3C Validator: No errors
 
 CSS - Jigsaw Validator: No errors
 
-Lighthouse test:
+**Lighthouse score Home Page**
 
 ![Lighthouse Score](https://github.com/telljacob/project-one/blob/main/assets/images/lighthousescore.png?raw=true)
+
+**Lighthouse score Gallery Page**
+
+![Lighthouse Score Gallery](https://github.com/telljacob/project-one/blob/main/assets/images/lighthousescoregallery.png?raw=true)
 
 ## Challanges
 
