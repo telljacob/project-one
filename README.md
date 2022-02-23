@@ -19,34 +19,35 @@ In the navigation bar we can use the link to: Home, Gallery, Services, About and
 ![Nav Bar](https://github.com/telljacob/project-one/blob/main/assets/images/header.png?raw=true)
 
 
-### Frontpage Background Image
+### Frontpage Background Image with animation
 The Frontpage image took a long time to decide on. The photographer isn't a nature photographer. A dramatic mountain range was my first thought but it would very poorly represent what the photographer does. A "fashion" magazine cover background for example would bring too much emphasis on that particular image, it had to be more neutral. This became the middle ground solution. It's a neutral and very calming image which is originally in black and white aswell, I didn't need to alter the image to create what I wanted the background to.
 
 ![Background Page](https://raw.githubusercontent.com/telljacob/project-one/main/assets/images/ida-two.webp)
 
 ### Social Media Links
+Links to the photographer's Social Media, opens in a new page and is also the preferred way for the photographer to get in contact with, which lead to the decision of having the footer visible at all times.
 
 ![Social Media in Footer](https://github.com/telljacob/project-one/blob/main/assets/images/socialmedia.png?raw=true)
-
-Links to the photographer's Social Media, opens in a new page and is also the preferred way for the photographer to get in contact with, which lead to the decision of having the footer visible at all times.
 
 ### Photo gallery
 The photo gallery is the photographer's own selected work, the order of presentation is my own design. They are divided into three responsive columns that becomes one on smaller screen sizes.
 
 ![Picture of Gallery](https://github.com/telljacob/project-one/blob/main/assets/images/photogallery.png?raw=true)
 
-### Services Section
+### "Services" Page
 The kind of work the photographer offers is listed on its own page to keep the "business" to one page. This is to let the rest of the page be a display of the photographer's creativity with having as much focus as possible on the previous work
 
-### About The Photographer Page
-To provide the background of the person who has created the work displayed.
+### "About The Photographer" Page
+To show the person who created the work displayed and give a short introduction, enough for the user to know who they would be contacting if they were to do so. You don't want to do business with someone you know nothing about either, some personal information such as interests is important. For an aspiring model this is even more vital as the quality of the work is a reflection of how you can work together. Being comfortable in front of the camera means you need to be comfortable with the person behind it.
 
 
-### Contact Information Page
+### "Contact Information" Page
 To shortly and concicely provide the contact information alongside a professional portrait.
 
 
 ## Validator Testing
+
+I have tried the website on Chrome, Safari and Firefox.
 
 HTML - W3C Validator: No errors
 
