@@ -125,7 +125,7 @@ header {
     color: white;
 }
 
-#logo-base-text {
+.logo-base-text {
     font-size: 600%;
     letter-spacing: 5px;
 
