@@ -356,6 +356,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    h1 {
+        padding-top: 10%;
+    }
+
     .menu {
         font-size: 150%;
     }
@@ -368,9 +372,45 @@ footer {
         width: 100%;
         left: 0px;
     }
+
+    .section-sizing {
+        height: 800px;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    #services-text {
+        width: 100%;
+        text-align: left;
+    }
+    
+    #services-text-div {
+        margin: 0 auto;
+        float: none;
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    
+    #services-text p {
+        margin-bottom: 16px;
+    }
+    
+    #services-image {
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+    
+    #services-image-div {
+        float: none;
+    }
 }
 
 @media screen and (max-width: 581px) {
+    h1 {
+        padding-top: 15%;
+    }
+
     .menu {
         font-size: 91%;
     }
@@ -387,9 +427,6 @@ footer {
         font-size: 500%;
         letter-spacing: 5px;
     
-        color: white;
-        opacity: 1;
-    
         text-align: center;
         padding: 20px;
     }
@@ -401,9 +438,19 @@ footer {
         text-align: center;
         padding-top: 15px;
     }
+
+
 }
 
-@media screen and (max-width: 450px) {    
+@media screen and (max-width: 450px) {  
+    header {
+        height: 7%;
+    }
+
+    h1 {
+        padding-top: 20%;
+    }
+
     #logo-base-text {
         font-size: 350%;
         letter-spacing: 5px;
