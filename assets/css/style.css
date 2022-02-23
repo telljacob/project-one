@@ -157,7 +157,7 @@ header {
 
 /* "About me"-exclusive styling */
 
-#section-sizing {
+.section-sizing {
     height: 600px;
     width: 100%;
     margin-top: 5%;
@@ -335,4 +335,87 @@ footer {
 
 .social-media a:hover {
     color: #9e9e9e;
+}
+
+@media screen and (max-width: 1530px) {
+    #logo-base {
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    h1 {
+        padding-top: 5%;
+    }
+
+    #logo-base {
+        width: 66%;
+        left: 17%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        font-size: 150%;
+    }
+
+    .menu a {
+        padding: 10px;
+    }
+
+    #logo-base {
+        width: 100%;
+        left: 0px;
+    }
+}
+
+@media screen and (max-width: 581px) {
+    .menu {
+        font-size: 91%;
+    }
+
+    .menu a {
+        padding: 0px;
+    }
+
+    #logo-base {
+        height: 350px;
+    }
+    
+    #logo-base-text {
+        font-size: 500%;
+        letter-spacing: 5px;
+    
+        color: white;
+        opacity: 1;
+    
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #logo-base-paragraph {
+        font-size: 150%;
+        letter-spacing: 5px;
+    
+        text-align: center;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {    
+    #logo-base-text {
+        font-size: 350%;
+        letter-spacing: 5px;
+    
+        color: white;
+        opacity: 1;
+    
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #logo-base-paragraph {
+        font-size: 100%;
+    }
 }
