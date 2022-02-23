@@ -79,5 +79,14 @@ This was something I hadn't done before but I was determined to make it on my ow
 - Workspace was not able to load, contacted support and got sorted eventually after doing a complete reset of the workspace dashboard.
 - The site was during parts of the development not able to load properly in Chrome where parts of the page was grey. This bug eventually stopped later down the line of development. Cause unknown.
 
+## Deployment
+The site was deployed from Github pages:
+- You get to Github pages by going to settings in the repository.
+- From there you scroll down until you see "Github Pages" and press the hyperlink saying "Check it out here!"
+- In the dropdown menu for "Branch:" choose main, in the next box choose "main" and save.
+
+The live site can be found [here](https://telljacob.github.io/project-one/index.html).
+
 ## Credit
 The use of image zoom is not my own creation. I could not remember how it was implemented so I copied the syntax from the Love Running project from earlier in the course.
+The icons used for social media links were taken from Fontawesome.
