@@ -402,6 +402,7 @@ footer {
         padding-left: 10px;
         padding-right: 5px;
     }
+
     #services-text-left {
         width: 100%;
     }
@@ -456,6 +457,30 @@ footer {
     }
     
     #contact-me-image-div {
+        float: none;
+    }
+
+    #about-me-text {
+        text-align: center;
+        width: 100%;
+        float: none;
+    }
+
+    #about-me-text-div {
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+
+    #about-me-image {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    #about-me-image-div {
         float: none;
     }
 
