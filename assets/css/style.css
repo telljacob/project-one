@@ -159,9 +159,10 @@ header {
 /* "About me"-exclusive styling */
 
 .section-sizing {
-    height: 600px;
+    height: 650px;
     width: 100%;
     margin-top: 5%;
+    overflow: hidden;
 }
 
 #about-me-text {
@@ -366,7 +367,6 @@ footer {
 
     .section-sizing {
         height: 1000px;
-        overflow: hidden;
     }
 
     .menu {
@@ -376,29 +376,6 @@ footer {
     #logo-base {
         width: 66%;
         left: 17%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    h1 {
-        padding-top: 10%;
-    }
-
-    .section-sizing {
-        height: 1000px;
-    }
-
-    .menu {
-        font-size: 120%;
-    }
-
-    .menu a {
-        padding: 10px;
-    }
-
-    #logo-base {
-        width: 100%;
-        left: 0px;
     }
 
     #services-text {
@@ -491,6 +468,25 @@ footer {
 
     #about-me-image-div {
         float: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        padding-top: 10%;
+    }
+
+    .menu {
+        font-size: 120%;
+    }
+
+    .menu a {
+        padding: 10px;
+    }
+
+    #logo-base {
+        width: 100%;
+        left: 0px;
     }
 
     #photo-gallery {
