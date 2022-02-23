@@ -439,6 +439,7 @@ footer {
 @media screen and (max-width: 581px) {
     h1 {
         padding-top: 15%;
+        font-size: 150%;
     }
 
     .menu {
@@ -469,7 +470,21 @@ footer {
         padding-top: 15px;
     }
 
-
+    #photo-gallery {
+        width: 100%;
+    }
+    #photo-column-left {
+        width: 100%;
+    }
+    
+    #photo-column-right {
+        width: 100%;
+        float: right;
+    }
+    
+    #photo-column-center {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 450px) {  
