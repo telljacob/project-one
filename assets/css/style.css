@@ -90,7 +90,7 @@ header {
 #home-image {
     width: 100%;
     height: 100%;
-    background: url("../images/ida-two.jpg") no-repeat center center;
+    background: url("../images/ida-two.webp") no-repeat center center;
     background-size: cover;
     position: absolute;
 
