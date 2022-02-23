@@ -377,6 +377,10 @@ footer {
         height: 500px;
     }
 
+    .menu li {
+        line-height: 50px;
+    }
+
     #services-text {
         width: 100%;
         text-align: left;
